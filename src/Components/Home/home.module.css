@@ -1,0 +1,119 @@
+/* .........Home.js....... */
+
+.contactTable {
+  display: flex;
+  /*display is flex*/
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+table {
+  border-spacing: 0;
+  border: 2px solid black;
+  width: 90%;
+  margin-left: 25px;
+}
+
+th,
+td {
+  padding: 8px;
+  margin: 0;
+}
+
+thead {
+  background-color: #074079;
+  /*table head background color set to dark blue*/
+  color: white;
+  height: 5vh;
+  text-align: center;
+}
+
+.contactTable td {
+  border-bottom: 1px solid #2e2e2e9d;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody {
+  height: 4vh;
+  border-bottom: 1px solid #2e2e2e9d;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #80a3e9;
+  /*light blue background color on hover*/
+}
+
+.editButton {
+  background-color: rgb(33, 33, 34);
+  /* dark grey background color */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  /* Red background color */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Show pointer cursor on hover */
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+  /* Darker red background color on hover */
+}
+
+.addContact {
+  /* display: flex; */
+  margin-top: 3vh;
+  margin-bottom: -5vh;
+  margin-left: 63vw;
+}
+
+.addContactButton {
+  padding: 10px;
+  background-color: #343a40;
+  border-radius: 10px;
+  font-size: 17px;
+  width: 60%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0 0 0 0 transparent inset;
+  outline: none;
+  line-height: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/* .addContact button:hover{
+    background-color: #343a40;
+    cursor: pointer;
+    color: white;
+} */

@@ -1,0 +1,27 @@
+/* ...............Navbar.js.............................. */
+nav{
+    background-image:linear-gradient(to right,rgb(14, 14, 84),rgb(220, 217, 217),rgb(11, 11, 126));
+    /* margin-top: -3vh; */
+    height: 9vh;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+}
+/* Styling for the heading */
+h2{
+    color: white;
+    text-decoration: none;
+
+}
+
+.heading{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    font-weight: bold;
+
+}
+
