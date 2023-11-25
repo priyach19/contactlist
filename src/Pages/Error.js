@@ -8,7 +8,7 @@ export default function Error(){
         setTimeout(() => {
            navigate("/");
             }, 3000);
-    },[])
+    },[navigate])
     
     return(
         <>
