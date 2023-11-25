@@ -19,8 +19,9 @@ function CustomContext({ children }) {
 
   //refs for adding and updating  local state of contactlist
   const nameRef = useRef();
-  const numberRef = useRef();
   const emailRef = useRef();
+  const numberRef = useRef();
+ 
 
   //fetch data from API and set the state
   const fetchContactList = async () => {

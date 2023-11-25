@@ -33,7 +33,7 @@ function Home() {
                             <th scope="col">Id</th>
                             <th scope="col">Name</th>
                             <th>Email</th>
-                            <th>Number</th>
+                            <th>Phone Number</th>
                             <th>Action</th>
                         </tr>
                     </thead>

@@ -44,7 +44,7 @@ function Addcontact() {
             id: contactList[contactList.length - 1].id + 1,
             name ,
             email ,
-            phone : number
+            phone:number
         });
        
       setContactList(newContactList);
@@ -63,7 +63,7 @@ function Addcontact() {
         <input type="text" placeholder="Name" ref={nameRef} required /> <br />
         <input type="email" placeholder="Email" ref={emailRef} required />{" "}
         <br />
-        <input type="tel" placeholder="Number" ref={numberRef} required />{" "}
+        <input type="tel" placeholder="Number" ref={numberRef} required />
         <br />
         <button>Submit</button>
       </form>
