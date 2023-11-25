@@ -23,7 +23,7 @@ function Addcontact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // assigning values to the form as Refs..
-    const name = numberRef.current.value;
+    const name = nameRef.current.value;
 
     const email = emailRef.current.value;
     
@@ -61,7 +61,7 @@ function Addcontact() {
       {/* Form to add contacts */}
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Name" ref={nameRef} required /> <br />
-        <input type="email" placeholder="Email" ref={emailRef} required />{" "}
+        <input type="email" placeholder="Email" ref={emailRef} required />
         <br />
         <input type="tel" placeholder="Number" ref={numberRef} required />
         <br />
